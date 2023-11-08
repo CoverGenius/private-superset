@@ -514,6 +514,7 @@ export const ControlPanelsContainer = (props: ControlPanelsContainerProps) => {
         validationErrors={validationErrors}
         actions={props.actions}
         isVisible={isVisible}
+        form_data={form_data}
         {...restProps}
       />
     );
